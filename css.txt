@@ -1,0 +1,154 @@
+CSS -> Cascading Style Sheet
+
+Functions
+Describes how HTML element are to be displayed
+Save A lot of Time
+Control the layout,color, and fonts of a web page
+
+
+Ways to Insert CSS
+1. External CSS
+2. Internal CSS
+3. Inline CSS
+
+
+Syntax
+h1        { color : blue;}
+^            ^        ^
+|            |        |
+Selector   Property   Value
+
+CSS Selector
+1. Element Selector 
+2. Id Selector
+3. Class Selector
+4. Universal Selector
+
+CSS Colors 
+1. Color Names
+2. RGB  / RGBA
+3. HEX
+4. HSL HSLA
+
+RGB
+Red, Green, Blue
+RGB(0,0,0) = Black
+RGB(255,255,255) = White
+
+RGBA 
+Red, Green, Blue, Alpha
+Alpha= 0-1
+RGBA(0,0,0,0.5) = Black with 50% transparency
+
+
+
+CSS HEX color
+
+-> Six-digit code
+-> Represents the red, green, and blue 
+
+# RRGGBB
+1. # FF0000 = Red
+2. # 00FF00 = Green
+3. # 0000FF = Blue
+
+ HEX color code is a six-digit code
+ 1. #000000 = Black
+ 2. #FFFFFF = White
+
+#RGB
+
+
+
+HSL
+
+Hue, Saturation, Lightness
+HSL(0, 100%, 50%) = Red
+
+1. Hue: 
+Color value  0 to 360
+
+2. Saturation:
+0% to 100%
+
+3. Lightness:
+0% to 100%
+
+HSLA 
+Hue, Saturation, Lightness, Alpha
+HSLA(0, 100%, 50%, 0.5) = Red with 0.5 Transparency 
+
+CSS Background
+
+1. Color : Specifies background color of an element
+
+2. Image: Specifies an image to use as the background of an element
+
+3. Repeat: Repeat an image both horizontally and vertically
+
+4. Attachment: Specifies whether the image should be scroll or be fixed
+
+5. Shorthand: color imageUrl repeat attachment
+
+
+
+
+
+CSS Border Style
+1. Dotted
+2. Dashed
+3. Solid
+4. Double
+5. Groove
+6. Ridge
+7. Inset  
+8. Outset
+9. mix top right bottom left
+10. none
+
+
+
+
+
+CSS Border Width 
+1. thin
+2. medium
+3. thick
+4. px
+
+5. Specific Sides Border Width 
+
+Apx Bpx    A= top and bottom
+           B= left and right
+
+Apx Bpx Cpx Dpx      A= top         
+                     B= right
+                     C=bottom
+                     D=Left
+
+
+
+
+
+CSS Border Color 
+
+1. Color 
+2. RGB
+3. HEX
+4. HSL
+5. Specific side color 
+
+
+
+
+CSS Border -  Individual Sides 
+
+1. Border top Style
+2. Border right Style
+3. Border left Style
+4. Border bottom style 
+5. Border-style : top right bottom left 
+6. Border-style : top right+left bottom
+7. Border-style : top+bottom right+left
+8. Border-style : top+right+bottom+left 
+
